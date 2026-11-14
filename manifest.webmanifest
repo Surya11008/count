@@ -1,0 +1,26 @@
+{
+  "id": "/index.html",
+  "name": "Preaching Counter",
+  "short_name": "Counter",
+  "description": "Simple Preaching Counter - Multi-Session Group Counters, Calendar & Live QR Sync",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#071b3b",
+  "theme_color": "#071b3b",
+  "icons": [
+    {
+      "src": "Images/pwa-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "Images/pwa-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
