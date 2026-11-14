@@ -1,0 +1,12 @@
+{
+  "name": "preaching-counter",
+  "version": "1.0.0",
+  "description": "Simple Preaching Counter - Multi-Session Group Counters, Calendar & Live QR Sync",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": ["preaching", "counter", "pwa", "realtime", "mqtt"],
+  "author": "SNI",
+  "license": "MIT"
+}
