@@ -152,18 +152,18 @@
                         </div>
 
                         <div>
-                            <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-1">User ID / Username</label>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-1">SNI ID</label>
                             <div class="relative">
-                                <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-slate-400"><i class="fa-solid fa-at"></i></span>
-                                <input type="text" id="authUserId" required placeholder="e.g. surya11008 or ramesh123" class="w-full pl-10 pr-4 py-3 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-500 text-sm">
+                                <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-slate-400"><i class="fa-solid fa-id-card"></i></span>
+                                <input type="text" id="authUserId" required placeholder="Enter SNI ID" class="w-full pl-10 pr-4 py-3 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-500 text-sm">
                             </div>
                         </div>
 
                         <div>
-                            <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-1">Password</label>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-1">SNI Password</label>
                             <div class="relative">
                                 <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-slate-400"><i class="fa-solid fa-lock"></i></span>
-                                <input type="password" id="authPassword" required placeholder="••••••••" class="w-full pl-10 pr-4 py-3 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-500 text-sm">
+                                <input type="password" id="authPassword" required placeholder="Enter SNI Password" class="w-full pl-10 pr-4 py-3 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-500 text-sm">
                             </div>
                         </div>
 
@@ -1143,7 +1143,7 @@
 
             if (!userIdInput || !passwordInput) {
                 if (submitBtn) { submitBtn.disabled = false; submitBtn.innerHTML = originalBtnHtml; }
-                showToast('Please enter User ID and Password', 'error');
+                showToast('Please enter SNI ID and SNI Password', 'error');
                 return;
             }
 
